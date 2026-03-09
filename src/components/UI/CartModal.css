@@ -1,0 +1,86 @@
+/* ========== CART MODAL ========== */
+.modal-cart {
+    max-width: 400px;
+}
+
+.cart-list {
+    list-style: none;
+    margin: 0 0 16px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item-name {
+    font-weight: 600;
+    color: var(--dark);
+}
+
+.cart-item-meta {
+    font-size: 12px;
+    color: var(--gray);
+}
+
+.checkout-message {
+    font-size: 13px;
+    color: var(--primary);
+    margin: 0 0 12px;
+    padding: 8px 12px;
+    background: var(--primary-light);
+    border-radius: 6px;
+}
+
+/* Cart Pill */
+.cart-pill {
+    position: fixed;
+    right: 20px;
+    bottom: 90px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 30px;
+    border: 1px solid var(--border);
+    background: var(--white);
+    cursor: pointer;
+    font-size: 13px;
+    z-index: 150;
+    box-shadow: var(--shadow);
+    transition: all 0.2s;
+}
+
+.cart-pill:hover {
+    box-shadow: var(--shadow-hover);
+    border-color: var(--primary);
+}
+
+.cart-pill-label {
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.cart-pill-count {
+    min-width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    background: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+}

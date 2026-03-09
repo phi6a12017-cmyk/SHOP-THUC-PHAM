@@ -1,0 +1,33 @@
+/* ========== FOOTER ========== */
+.app-footer {
+    background: var(--white);
+    border-top: 1px solid var(--border);
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: var(--gray);
+    max-width: 1440px;
+    margin: auto auto 0;
+    width: 100%;
+}
+
+.footer-links {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-link {
+    border: none;
+    background: transparent;
+    color: var(--gray);
+    font-size: 13px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: color 0.2s;
+}
+
+.footer-link:hover {
+    color: var(--primary);
+}
